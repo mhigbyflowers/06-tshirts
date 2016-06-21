@@ -3,9 +3,12 @@
 }
 .container{
   display: flex;
+
 }
 .shop-item{
+  overflow: hidden;
   border: $border;
+
   .image-container{
     padding:$Gutter;
   }

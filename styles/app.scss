@@ -14,3 +14,62 @@ $border:.2rem solid $Brand-Primary;
 @import 'box-sizing';
 @import 'reset';
 @import 'card-style';
+
+.shop-item-btns{
+display: flex;
+position: relative;
+}
+.shop-button{
+  width: calc(100% / 5);
+  text-align: center;
+}
+
+
+
+
+
+.dropdown{
+  width: calc(100% / 5);
+  border:$border;
+  text-align: center;
+  position: relative;
+
+
+  &__options{
+  position: absolute;
+  top:-5.3rem;
+  left: -.2rem;
+  display: none;
+li{
+  border-top: $border;
+  border-left: $border;
+  border-right: $border;
+  padding:0 $Gutter ;
+
+}
+
+  }
+  &:hover .dropdown__options{
+background: red;
+display: flex;
+flex-direction: column;
+
+  }
+
+  &__option-item-shirt-size{
+    position: absolute;
+    top:-5.4rem;
+    left: 0rem;
+    display: none;
+    li{  border-top: $border;
+      border-left: $border;
+      border-right: $border;
+      padding:0 $Gutter ;}
+  }
+
+  &:hover .dropdown__option-item-shirt-size{
+    background: red;
+    display: flex;
+    flex-direction: column;
+  }
+}

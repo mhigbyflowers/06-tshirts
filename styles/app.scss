@@ -1,9 +1,6 @@
 
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-@import 'font-awesome';
-@import 'box-sizing';
-@import 'reset';
 $Brand-Primary: #3473b5;
 $Brand-White: #fff;
 $pink: #e577aa;
@@ -12,3 +9,8 @@ $Green: #7abe93;
 $Yellow: #e5b178;
 $Gutter: 1rem;
 $Max-Content-Width: 60rem;
+$border:.2rem solid $Brand-Primary;
+@import 'font-awesome';
+@import 'box-sizing';
+@import 'reset';
+@import 'card-style';

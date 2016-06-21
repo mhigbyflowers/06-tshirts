@@ -1,0 +1,18 @@
+.outer-container{
+  max-width: $Max-Content-Width;
+}
+.container{
+  display: flex;
+}
+.shop-item{
+  border: $border;
+  .image-container{
+    padding:$Gutter;
+  }
+ .shop-item-info{
+
+   text-align: center;
+   padding: $Gutter;
+   color:$Brand-Primary;
+ }
+}

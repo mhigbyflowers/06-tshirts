@@ -16,4 +16,7 @@ $drawr: -445%;
 @import 'buttonslayout';
 @import 'color-select';
 @import 'card-grid';
-@import 'media-query-tablet'
+@import 'media-query-tablet';
+*{
+  transition: all .2s;
+}

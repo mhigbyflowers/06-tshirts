@@ -2,12 +2,7 @@
   max-width: $Max-Content-Width;
 
 }
-.container{
-background:red;
 
-
-
-}
 .shop-item{
   overflow: hidden;
   border: $border;
@@ -24,5 +19,8 @@ background:red;
    text-align: center;
    padding: $Gutter;
    color:$Brand-Primary;
+ }
+ .shop-item-info ,.image-container{
+   margin:$Gutter;
  }
 }

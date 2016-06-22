@@ -1,7 +1,5 @@
 @media only screen and (max-width: 50rem) {
-  body {
-    background: green;
-  }
+
 
   .grid-item {
     flex-direction: column;
@@ -15,6 +13,7 @@
   }
 
   .shop-button {
+
     border-bottom: $border;
     border-top: 0 solid transparent;
 
@@ -49,6 +48,7 @@
     }
 
     li {
+      transition: all .3s;
       border-bottom: $border;
         border-left: 0;
       background: $Brand-White;
@@ -58,7 +58,6 @@
 
   .dropdown:hover .dropdown__option-item-shirt-size {
     flex-direction: row;
-
     top: -.25rem;
     left: -355%;
     background: $Brand-White;
@@ -67,6 +66,7 @@
     }
 
     li {
+      transition: all .3s;
       border-bottom: $border;
       border-left: 0;
       background: $Brand-White;

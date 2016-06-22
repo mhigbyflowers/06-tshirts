@@ -8,8 +8,8 @@
 .shop-item{
   overflow: hidden;
   border: $border;
-
-  .image-container{
+background: #9d9a9c;
+.image-container{
     padding:$Gutter;
   }
  .shop-item-info{

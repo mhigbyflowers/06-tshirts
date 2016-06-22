@@ -17,3 +17,34 @@ $drawr: -445%;
 @import 'card-style';
 @import 'buttonslayout';
 @import 'color-select';
+@import 'card-grid';
+
+@media only screen and (max-width: 50rem) {
+
+  body{
+    background: green;
+  }
+  .grid-item{
+    flex-direction: column;
+  }
+
+.shop-item{
+width: 100%;
+display: flex;
+}
+
+.shop-item-btns {
+  flex-direction: column;
+}
+.dropdown:hover .dropdown__options {
+
+  flex-direction: row;
+  top: -.1rem;
+  left:-390%;
+  li{
+    border:$border;
+    background: white;
+    padding:$Gutter ;}
+}
+
+}

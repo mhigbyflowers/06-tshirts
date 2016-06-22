@@ -3,7 +3,8 @@
 
 }
 .container{
-  display: flex;
+background:red;
+
 
 
 }
@@ -11,9 +12,12 @@
   overflow: hidden;
   border: $border;
   background: $Brand-White;
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: $Gutter;
 
 .image-container{
     padding:$Gutter;
+    img{width: 100%;}
   }
  .shop-item-info{
 

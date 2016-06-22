@@ -40,7 +40,7 @@
   .dropdown:hover .dropdown__options {
     flex-direction: row;
     top: -.25rem;
-    left: -350%;
+    left: -368%;
     background: $Brand-White;
     &:last-of-type{
       border-left: $border;
@@ -58,7 +58,7 @@
   .dropdown:hover .dropdown__option-item-shirt-size {
     flex-direction: row;
     top: -.25rem;
-    left: -355%;
+    left: -368%;
     background: $Brand-White;
     &:last-of-type{
       border-left: $border;

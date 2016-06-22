@@ -1,5 +1,3 @@
-
-
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 $Brand-Primary: #3473b5;
 $Brand-White: #fff;
@@ -7,9 +5,9 @@ $pink: #e577aa;
 $Blue: #72bbe9;
 $Green: #7abe93;
 $Yellow: #e5b178;
-$Gutter: .5rem;
+$Gutter: 0.5rem;
 $Max-Content-Width: 60rem;
-$border:.2rem solid $Brand-Primary;
+$border: 0.2rem solid $Brand-Primary;
 $drawr: -445%;
 @import 'font-awesome';
 @import 'box-sizing';
@@ -18,33 +16,4 @@ $drawr: -445%;
 @import 'buttonslayout';
 @import 'color-select';
 @import 'card-grid';
-
-@media only screen and (max-width: 50rem) {
-
-  body{
-    background: green;
-  }
-  .grid-item{
-    flex-direction: column;
-  }
-
-.shop-item{
-width: 100%;
-display: flex;
-}
-
-.shop-item-btns {
-  flex-direction: column;
-}
-.dropdown:hover .dropdown__options {
-
-  flex-direction: row;
-  top: -.1rem;
-  left:-390%;
-  li{
-    border:$border;
-    background: white;
-    padding:$Gutter ;}
-}
-
-}
+@import 'media-query-tablet'

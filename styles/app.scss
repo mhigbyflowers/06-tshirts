@@ -8,7 +8,7 @@ $Yellow: #e5b178;
 $Gutter: 0.5rem;
 $Max-Content-Width: 60rem;
 $border: 0.2rem solid $Brand-Primary;
-$drawr: -445%;
+$drawr: -418%;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
@@ -18,5 +18,5 @@ $drawr: -445%;
 @import 'card-grid';
 @import 'media-query-tablet';
 *{
-  transition: all .2s;
+  transition: all .2s linear;
 }

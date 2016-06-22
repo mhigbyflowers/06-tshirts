@@ -1,14 +1,17 @@
 .outer-container{
   max-width: $Max-Content-Width;
+
 }
 .container{
   display: flex;
+
 
 }
 .shop-item{
   overflow: hidden;
   border: $border;
-background: #9d9a9c;
+  background: $Brand-White;
+
 .image-container{
     padding:$Gutter;
   }

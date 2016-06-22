@@ -1,0 +1,14 @@
+.dropdown__options{
+  &--pink{
+    color:$pink;
+  }
+  &--blue{
+    color:$Blue;
+  }
+  &--yellow{
+    color: $Yellow;
+  }
+  &--green{
+    color: $Green;
+  }
+}

@@ -7,92 +7,13 @@ $pink: #e577aa;
 $Blue: #72bbe9;
 $Green: #7abe93;
 $Yellow: #e5b178;
-$Gutter: 1rem;
+$Gutter: .5rem;
 $Max-Content-Width: 60rem;
 $border:.2rem solid $Brand-Primary;
-$drawr: -422%;
+$drawr: -445%;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
 @import 'card-style';
-
-
-.shop-item-btns{
-display: flex;
-position: relative;
-align-items: center;
-// & *{border: 1px yellow dotted;
-
-}
-
-.shop-button{
-  width: 100%;
-  text-align: center;
-  padding:$Gutter;
-}
-
-
-
-
-
-.dropdown{
-  width: 100%;
-  // border:$border;
-  text-align: center;
-  position: relative;
-  background: green;
-  padding: $Gutter;
-
-  span{
-  // margin: $Gutter ;
-  }
-
-  &__options{
-  position: absolute;
-left: 0px;
-top: $drawr;
-width: 100%;
-
-
-  // display: none;
-li{
-  border-top: $border;
-  border-left: $border;
-  border-right: $border;
-  padding:$Gutter ;
-
-}
-
-  }
-  &:hover .dropdown__options{
-    background: red;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  &__option-item-shirt-size{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: $drawr;
-    overflow: hidden;
-
-    li{  border-top: $border;
-      border-left: $border;
-      border-right: $border;
-      padding: $Gutter ;
-    span{
-
-
-      }
-    }
-  }
-
-  &:hover .dropdown__option-item-shirt-size{
-    background: red;
-    display: flex;
-    flex-direction: column;
-  }
-
-}
+@import 'buttonslayout';
+@import 'color-select';

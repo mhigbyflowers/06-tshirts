@@ -9,6 +9,7 @@
   .shop-item {
     width: 100%;
     display: flex;
+
     max-width: 25rem;
   }
 
@@ -30,17 +31,18 @@
   }
   .shop-item-btns {
     flex-direction: column;
-    // justify-content:
+    align-items: stretch;
   }
 
   .dropdown__options {
     background: $Brand-White;
+
   }
 
   .dropdown:hover .dropdown__options {
     flex-direction: row;
     top: -.25rem;
-    left: -368%;
+    left: -376%;
     background: $Brand-White;
     &:last-of-type{
       border-left: $border;

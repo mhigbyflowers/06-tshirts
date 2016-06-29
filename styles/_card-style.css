@@ -7,8 +7,9 @@
   overflow: hidden;
   border: $border;
   background: $Brand-White;
-  width: calc(100% / 3 - 1rem - 1rem);
-  margin: $Gutter;
+  width: calc(100% / 3 - 1rem);
+  margin-left: $Gutter;
+  margin-bottom: $Gutter;
 
 .image-container{
     padding:$Gutter;

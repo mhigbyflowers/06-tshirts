@@ -1,0 +1,16 @@
+.grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.outer-container{
+margin: 0 auto;
+
+}
+.container{
+  margin: $Gutter;
+}
+.shop-item{
+  min-width: 15rem;
+}

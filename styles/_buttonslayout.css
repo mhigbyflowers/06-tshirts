@@ -1,0 +1,110 @@
+.shop-item-btns {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.shop-button {
+  width: 100%;
+  text-align: center;
+  padding: $Gutter;
+  border-top: $border;
+  border-left: $border;
+  color: $Brand-Primary;
+
+  &:first-of-type {
+    border-left: 0 solid transparent;
+  }
+
+  &:hover {
+    color: $Brand-White;
+    background: $Brand-Primary;
+  }
+  &:hover *{
+
+  }
+}
+
+.dropdown {
+
+  text-align: center;
+  position: relative;
+  // padding: $Gutter;
+
+  span {
+    // margin: $Gutter ;
+  }
+
+  &__options {
+    position: absolute;
+    left: 0;
+    top: $drawr;
+    width: 100%;
+    background: $Brand-White;
+    display: none;
+    color: red;
+
+    &:hover {
+      top: $drawr - 24;
+
+    }
+
+    li {
+      border-top: $border;
+      border-left: $border;
+      border-right: $border;
+      padding: $Gutter;
+
+      &:hover * {
+        transform: scale(1.2);
+        // font-size: 1.1rem;
+
+      }
+    }
+  }
+
+  &:hover .dropdown__options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__option-item-shirt-size {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: $drawr;
+    display: none;
+
+    &:hover {
+      top: $drawr - 24;
+    }
+
+    li {
+      border-top: $border;
+      border-left: $border;
+      border-right: $border;
+      padding: $Gutter;
+
+      &:hover * {
+        transform: scale(1.2);
+        // transition: font-size 500ms cubic-bezier(0.000, 1.350, 1.000, 0.525);
+      }
+
+      * {
+        display: inline-block;
+      }
+    }
+  }
+
+  &:hover .dropdown__option-item-shirt-size {
+    background: $Brand-White;
+    display: flex;
+    width:100%;
+
+    flex-direction: column;
+  }
+
+  .dropdown__option-item-shirt-size {
+    color: $Brand-Primary;
+  }
+}

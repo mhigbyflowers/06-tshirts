@@ -1,0 +1,27 @@
+.outer-container{
+  max-width: $Max-Content-Width;
+
+}
+
+.shop-item{
+  overflow: hidden;
+  border: $border;
+  background: $Brand-White;
+  width: calc(100% / 3 - 1rem);
+  margin-left: $Gutter;
+  margin-bottom: $Gutter;
+
+.image-container{
+    padding:$Gutter;
+    img{width: 100%;}
+  }
+ .shop-item-info{
+
+   text-align: center;
+   padding: $Gutter;
+   color:$Brand-Primary;
+ }
+ .shop-item-info ,.image-container{
+   margin:$Gutter;
+ }
+}

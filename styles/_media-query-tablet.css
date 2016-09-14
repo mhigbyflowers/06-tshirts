@@ -1,0 +1,76 @@
+@media only screen and (max-width: 500px) {
+
+
+  .grid-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shop-item {
+    width: 100%;
+    display: flex;
+
+    max-width: 25rem;
+  }
+
+  .shop-button {
+
+    border-bottom: $border;
+    border-top: 0 solid transparent;
+
+    &:first-of-type {
+      border-left: $border;
+      border-bottom: $border;
+      border-right: 0;
+      border-top: 0;
+    }
+
+    &:last-of-type {
+      border-bottom: 0 solid transparent;
+    }
+  }
+  .shop-item-btns {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dropdown__options {
+    background: $Brand-White;
+
+  }
+
+  .dropdown:hover .dropdown__options {
+    flex-direction: row;
+    top: -.25rem;
+    left: -376%;
+    background: $Brand-White;
+    &:last-of-type{
+      border-left: $border;
+    }
+
+    li {
+      transition: all .3s;
+      border-bottom: $border;
+        border-left: 0;
+      background: $Brand-White;
+      z-index: 20;
+    }
+  }
+
+  .dropdown:hover .dropdown__option-item-shirt-size {
+    flex-direction: row;
+    top: -.25rem;
+    left: -368%;
+    background: $Brand-White;
+    &:last-of-type{
+      border-left: $border;
+    }
+
+    li {
+      transition: all .3s;
+      border-bottom: $border;
+      border-left: 0;
+      background: $Brand-White;
+    }
+  }
+}
